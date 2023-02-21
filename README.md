@@ -18,7 +18,7 @@ This repository contains the material for the second day of the [RL4AA'23](https
 ## Python tutorial: reinforcement learning implementation example
 
 - Github repository containing the material: [https://github.com/RL4AA/RL4AA23](https://github.com/RL4AA/RL4AA23)
-- Tutorial in slide form: [here](https://ansantam.github.io/RL4AA23/tutorial.slides.html#/)
+- Tutorial in slide form: [here](https://rl4aa.github.io/RL4AA23/tutorial.slides.html#/)
 
 ## Getting started
 
