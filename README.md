@@ -2,7 +2,9 @@
 
 This repository contains the material for the second day of the [RL4AA'23](https://indico.scc.kit.edu/event/3280/overview) event.
 
-# Workshop organizing committee
+Homepage for RL4AA Collaboration: https://rl4aa.github.io/
+
+## Workshop organizing committee
 
 - Andrea Santamaria Garcia (KIT)
 - Simon Hirländer (University of Salzburg)
