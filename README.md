@@ -2,7 +2,7 @@
 
 This repository contains the material for the second day of the [RL4AA'23](https://indico.scc.kit.edu/event/3280/overview) event.
 
-Homepage for RL4AA Collaboration: https://rl4aa.github.io/
+Homepage for RL4AA Collaboration: [https://rl4aa.github.io/](https://rl4aa.github.io/)
 
 ## Workshop organizing committee
 
@@ -45,17 +45,31 @@ jupyter notebook
 - Open the tutorial notebook `tutorial.ipynb` in the jupyter server in browser
 - When you are done type `deactivate`
 
-#### conda
+#### conda only
 
 Instructions to install conda [here](https://docs.conda.io/projects/conda/en/4.6.1/user-guide/install/index.html)
 
 ```bash
+conda env create -f environment.yml
+conda activate rl4aa
+jupyter notebook
+```
+
+- Open the tutorial notebook `tutorial.ipynb` in the jupyter server in browser
+- When you are done type `conda deactivate` to deactivate the virtual environment
+
+#### conda + pip
+
+```bash
+cd path_to_your_folder/RL4AA23
+```
+
+```bash
 conda create -n rl4aa python=3.10
 conda activate rl4aa
-cd path_to_your_folder/RL4AA23
 pip3 install -r requirements.txt
 jupyter notebook
 ```
 
 - Open the tutorial notebook `tutorial.ipynb` in the jupyter server in browser
-- When you are done type `conda deactivate`
+- When you are done type `conda deactivate` to deactivate the virtual environment
