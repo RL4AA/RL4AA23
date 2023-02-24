@@ -32,7 +32,7 @@ Homepage for RL4AA Collaboration: [https://rl4aa.github.io/](https://rl4aa.githu
 
 - OS X: `brew install ffmpeg`
 - Ubuntu: `sudo apt-get install ffmpeg`
-- Ubuntu 14.04: sudo apt-get install libav-tools`
+- Ubuntu 14.04: `sudo apt-get install libav-tools`
 - With pip: `pip install imageio-ffmpeg`
 
 ### Setup the environment locally
