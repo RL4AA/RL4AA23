@@ -8,4 +8,6 @@ names
 opencv-python
 seaborn
 pyyaml
+RISE
 stable-baselines3==1.6.0
+
