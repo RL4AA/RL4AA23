@@ -13,9 +13,9 @@ Homepage for RL4AA Collaboration: [https://rl4aa.github.io/](https://rl4aa.githu
 
 ## Slides
 
-- Welcome and basics of RL, Andrea Santamaria Garcia
-- Advanced concepts in RL, Simon Hirländer
-- RL in particle accelerator control: are we there yet?, Simon Hirländer
+- [Welcome and basics of RL](https://github.com/RL4AA/RL4AA23/blob/main/slides/SantamariaGarcia_intro_to_RL.pdf), Andrea Santamaria Garcia
+- [Advanced concepts in RL](https://github.com/RL4AA/RL4AA23/blob/main/slides/Hirlaender_advanced_concepts.pdf), Simon Hirländer
+- [RL in particle accelerator control: are we there yet?](https://github.com/RL4AA/RL4AA23/blob/main/slides/Hirlaender_IBPT_seminar.pdf), Simon Hirländer
 
 ## Python tutorial: reinforcement learning implementation example
 
@@ -27,6 +27,13 @@ Homepage for RL4AA Collaboration: [https://rl4aa.github.io/](https://rl4aa.githu
 - First, download the material to your local disk by cloning the repository:
 `git clone https://github.com/ansantam/RL4AA23`
 - If you don't have git installed, you can click on the green button that says "Code", and choose to download it as a `.zip` file.
+
+### Install `ffmpeg`
+
+- OS X: `brew install ffmpeg`
+- Ubuntu: `sudo apt-get install ffmpeg`
+- Ubuntu 14.04: sudo apt-get install libav-tools`
+- With pip: `pip install imageio-ffmpeg`
 
 ### Setup the environment locally
 
